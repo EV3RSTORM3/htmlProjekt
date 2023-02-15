@@ -1,0 +1,28 @@
+﻿body{
+    background-color: #212121;
+    font-family: arial;
+    color: white;
+}
+
+div#all {
+
+}
+
+div#header {
+
+}
+
+div#menue {
+
+}
+
+div#content {
+    background-color: dimgrey;
+    padding: 50px;
+    border: dimgrey;
+    border-radius: 1.5em/1.5em;
+}
+
+div#footer {
+
+}
