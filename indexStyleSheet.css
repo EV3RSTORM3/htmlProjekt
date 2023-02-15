@@ -1,28 +1,38 @@
 ﻿body{
     background-color: #212121;
     font-family: arial;
-    color: white;
-}
-
-div#all {
-
+    color: lightgrey;
 }
 
 div#header {
-
-}
-
-div#menue {
-
+    background-color: #333333;
+    padding: 20px;
+    margin-bottom: 80px;
+    margin-left: auto;
 }
 
 div#content {
-    background-color: dimgrey;
+    background-color: #333333;
     padding: 50px;
-    border: dimgrey;
-    border-radius: 1.5em/1.5em;
+    border-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 div#footer {
 
+}
+
+table{
+    width: 80.6%;
+    margin-left: 9.7%;
+    border-spacing: 5px;
+}
+
+td {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
 }
