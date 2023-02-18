@@ -9,9 +9,10 @@ div#header {
     padding: 20px;
     margin-bottom: 80px;
     margin-left: auto;
+    border-radius: 20px;
 }
 
-div#content {
+div#content0 {
     background-color: #333333;
     padding: 50px;
     border-radius: 20px;
@@ -20,9 +21,20 @@ div#content {
     margin-right: 10%;
     margin-left: 10%;
 }
+div#content1 {
+    background-color: #333333;
+    padding: 50px;
+    border-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
 
 div#footer {
-
+    color: white;
+    text-align: center;
+    font-size: 10pt;
 }
 
 table{
