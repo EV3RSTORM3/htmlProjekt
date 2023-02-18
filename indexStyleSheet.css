@@ -49,21 +49,6 @@ td {
     border-radius: 10px;
 }
 
-h1{
-    display:inline;
+h1 {
     color: purple;
-}
-
-h3, p{
-    display:inline;
-}
-a {
-    text-decoration: none;
-}
-
-a:visited{
-    color: purple;
-}
-a:hover{
-    color: darkred;
 }
