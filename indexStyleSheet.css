@@ -35,15 +35,16 @@ div#footer {
     color: white;
     text-align: center;
     font-size: 10pt;
+    margin-top: 80px;
 }
 
-table{
+.menue{
     width: 80.6%;
     margin-left: 9.7%;
     border-spacing: 5px;
 }
 
-td {
+.menueTd{
     background-color: #333333;
     padding: 20px;
     border-radius: 10px;
@@ -51,4 +52,37 @@ td {
 
 h1 {
     color: purple;
+    display: inline;
+}
+
+h3{
+    display: inline;
+}
+
+.HeaderTdRight{
+    text-align: right;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    width: 33%;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.NormalLink:hover{
+    color: darkgray;
+}
+
+.NormalLink:visited{
+    color: purple;
+}
+
+.NormalLink{
+    text-decoration: underline;
 }
