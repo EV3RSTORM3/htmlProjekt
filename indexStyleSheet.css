@@ -51,7 +51,7 @@ div#footer {
 }
 
 h1 {
-    color: purple;
+    color: #ed1c24;
     display: inline;
 }
 
@@ -75,6 +75,10 @@ ul{
     list-style-position: inside;
 }
 
+a:hover{
+    opacity: 0.8;
+}
+
 .NormalLink:hover{
     color: darkgray;
 }
@@ -86,4 +90,22 @@ ul{
 .NormalLink{
     text-decoration: underline;
     color: #ed1c24;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.stt {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #ed1c24 url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+}
+
+.stt:hover {
+    opacity: 0.8;
 }
