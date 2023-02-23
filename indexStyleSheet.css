@@ -1,12 +1,14 @@
 ﻿body{
     background-color: #212121;
     font-family: arial;
+    font-size: 15pt;
     color: lightgrey;
+    line-height: 140%;
 }
 
 div#header {
     background-color: #333333;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 80px;
     margin-left: auto;
     border-radius: 20px;
@@ -36,12 +38,14 @@ div#footer {
     text-align: center;
     font-size: 10pt;
     margin-top: 80px;
+    line-height: normal;
 }
 
 .menue{
     width: 80.6%;
     margin-left: 9.7%;
     border-spacing: 5px;
+    text-align: center;
 }
 
 .menueTd{
