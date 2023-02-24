@@ -1,7 +1,9 @@
 body{
     background-color: #212121;
     font-family: arial;
+    font-size: 15pt;
     color: lightgrey;
+    line-height: 140%;
 }
 
 div#header {
@@ -25,6 +27,7 @@ div#footer {
     text-align: center;
     font-size: 10pt;
     margin-top: 80px;
+    line-height: normal;
 }
 
 h1{
