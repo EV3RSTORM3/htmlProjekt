@@ -2,17 +2,45 @@
 <html lang="de">
     <head>
         <meta charset="UTF-8">
-        <title>subPage2</title>
+        <title>Mergesort</title>
         <link rel="stylesheet" href="../subPagesStyleSheet.css" type="text/css">
     </head>
     <body>
         <div id="header">
             <table>
                 <tr>
-                    <td> <h1> <a href="../index.html" title="Startseite">Sortier Algorithmen</a> </h1> <h3>/subPage2</h3> </td>
+                    <td> <h1> <a href="../index.html" title="Startseite">Sortier Algorithmen</a> </h1> <h3>/Mergesort</h3> </td>
                     <td class="HeaderTdRight"> <a href="../impressum.html" title="Impressum"> <img src="../images/LOGO.PNG" height="15%" width="15%"/> </a> </td>
                 </tr>
             </table>
+        </div>
+        <div id="content">
+            <h1>Der Mergesort...</h1>
+            <p>
+                ...ist ein stabiles Sortierverfahren, das nach dem Prinzip teile und herrsche (divide and conquer) arbeitet. Er wurde erstmals 1945 durch John von Neumann vorgestellt.
+                Das Verfahren arbeitet normalerweise nicht in-place, es gibt aber möglichkeiten es in-place zu implementieren.
+            </p>
+            <p><br></p>
+            <h2>Prinzip</h2>
+            <p>
+                Mergesort betrachtet die zu sortierenden Daten als Liste und zerlegt sie in kleinere Listen, die jede für sich sortiert werden. Die kleinen sortierten Listen werden dann
+                im Reißverschlussverfahren zu größeren sortierten Listen zusammengefügt (engl. to merge), bis eine sortierte Gesamtliste erreicht ist.
+            </p>
+            <img class="floatRight" src="../images/mergesort.png" height="20%" width="20%">
+            <p>Das Bild veranschaulicht die drei wesentlichen Schritte eines Teile-und-herrsche-Verfahrens:</p>
+            <ul>
+                <li>Teile</li>
+                <li>Sortiere</li>
+                <li>Verschmelze</li>
+            </ul>
+            <p>
+                Der Teile-Schritt ist ersichtlich trivial (die Daten werden einfach in zwei Hälften aufgeteilt). Die wesentliche Arbeit wird beim Verschmelzen geleistet, daher
+                auch der Name des Algorithmus. Bei der Betrachtung des in der Grafik dargestellten Verfahrens sollte man sich allerdings bewusst machen, dass es sich hier nur um eine von
+                mehreren Rekursionsebenen handelt. So könnte etwa die Sortierfunktion, welche die beiden Teile 1 und 2 sortieren soll, zu dem Ergebnis kommen, dass diese Teile immer noch
+                zu groß für die Sortierung sind. Beide Teile würden dann wiederum aufgeteilt und der Sortierfunktion rekursiv übergeben, sodass eine weitere Rekursionsebene geöffnet wird,
+                welche dieselben Schritte abarbeitet. Im Extremfall (der bei Mergesort sogar der Regelfall ist) wird das Aufteilen so weit fortgesetzt, bis die beiden Teile nur noch aus
+                einzelnen Datenelementen bestehen und damit automatisch sortiert sind.
+            </p>
         </div>
         <div id="footer">
             <table>
@@ -25,11 +53,8 @@
                     <td>&#169;2023</td>
                     <td>TGI11/1</td>
                     <td>
-                        <ul>
-                            <li> <a class="NormalLink" href="https://de.wikipedia.org/"> https://de.wikipedia.org/ </a> </li>
-                            <li> <a class="NormalLink" href="https://de.wikipedia.org/"> https://de.wikipedia.org/ </a> </li>
-                            <li> <a class="NormalLink" href="https://de.wikipedia.org/"> https://de.wikipedia.org/ </a> </li>
-                        </ul>
+                        <a class="NormalLink" href="https://de.wikipedia.org/wiki/Mergesort#/media/Datei:Mergesort.png">Merge-sort-example-300px.gif</a><br>
+                        <a class="NormalLink" href="https://de.wikipedia.org/wiki/Mergesort">Wikipedia Artikel zum Mergesort</a>
                     </td>
                 </tr>
                 <tr>
